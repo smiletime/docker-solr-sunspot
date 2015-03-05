@@ -1,7 +1,7 @@
 # solr-sunspot
 
-FROM jhamit/maven
-MAINTAINER Derek Kastner <dkastner@gmail.com>
+FROM maven
+MAINTAINER Rory V McKenna <rory@smiletime.com>
 
 RUN apt-get --yes install git
 
